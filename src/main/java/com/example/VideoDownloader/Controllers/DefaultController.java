@@ -8,6 +8,6 @@ public class DefaultController {
 
     @GetMapping("/")
     public String redirect() {
-        return "redirect:search";
+        return "redirect:/search";
     }
 }
